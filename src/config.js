@@ -13,11 +13,9 @@ var config = {
   auto: false,
   title: "MAPEO DE LOS LUGARES DE MEMORIA SOBRE JAIME GARZÓN",
   subtitle:
-    "A continuación se presentan los principales lugares de memoria en Bogotá asociados a la figura de Jaime Garzón y los personajes a los que le dio vida",
+    "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis, lacinia donec hendrerit himenaeos cubilia consequat quam",
   byline: "Centro Nacional de Memoria Historica",
-  footer:
-    // 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
-    "CNMH",
+  footer: "CNMH",
   chapters: [
     {
       id: "cap01",
@@ -26,7 +24,7 @@ var config = {
       title: "Bogota",
       image: "./images/jaimeG.png",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit primis in, viverra eros lacus nulla aliquet ante nam consequat conubia, ultrices sagittis tristique fringilla cubilia pulvinar eu egestas. Fames neque massa senectus ultricies habitant in turpis nisi, hendrerit sem facilisis pulvinar auctor ridiculus phasellus, non luctus nibh risus habitasse purus congue. Felis ultricies urna velit morbi facilisi fringilla laoreet orci dignissim, egestas ut malesuada rhoncus eget nulla ultrices justo, class dapibus imperdiet litora leo bibendum lacus mus.",
+        "A continuación se presentan los principales lugares de memoria en Bogotá asociados a la figura de Jaime Garzón y los personajes a los que le dio vida 1 . Esta breve revisión puso en evidencia la gran importancia que ha tenido esta figura en el espacio público bogotano. Aunque se encontraron numerosas intervenciones efímeras, ya fuera por su carácter temporal 2 , o por la destrucción de las que fueron objeto, se concentró la mirada en aquellas que han permanecido en el tiempo consolidándose, o en proceso de consolidarse, como lugares de memoria. La presentación se divide en murales, monumentos y colegios.",
       location: {
         center: [-74.03084, 4.70324], //4.622786830213004, -74.07809809815039
         zoom: 10,
@@ -178,7 +176,7 @@ var config = {
       description:
         "En la localidad de Teusaquillo, en el Barrio Quinta Paredes, se encuentra ubicado el monumento a Jaime Garzón a pocos metros del lugar en donde fue asesinado. Esta escultura representa la dimensión de mediador y constructor de paz de Jaime Garzón capturando un momento icónico ante la opinión pública cuando acompañó un proceso de liberación de secuestrados y ondeó la bandera de Colombia junto a un helicóptero 11 . Esta iniciativa colectiva estuvo acompañada también por CARACOL y no tuvo financiación pública. El escultor Alejandro Hernández fue el encargado del diseño de este monumento y el de Heriberto de la Calle.",
       location: {
-        center: [-74.07658339999999, 4.619240467762259], //4.619240467762259, -74.07658339999999
+        center: [-74.09289491710322, 4.6308879777927485], //4.6308879777927485, -74.09289491710322
         zoom: 19,
         pitch: 70,
         bearing: 0,
