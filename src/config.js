@@ -11,17 +11,16 @@ var config = {
   theme: "dark",
   use3dTerrain: false, //set true for enabling 3D maps.
   auto: false,
-  title: "MAPEO DE LOS LUGARES DE MEMORIA SOBRE JAIME GARZÓN",
-  subtitle:
-    "Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis, lacinia donec hendrerit himenaeos cubilia consequat quam",
-  byline: "Centro Nacional de Memoria Historica",
+  title: "CARTOGRAFIA DE LA ESPERANZA",
+  subtitle: "",
+  byline: "",
   footer: "CNMH",
   chapters: [
     {
       id: "cap01",
       alignment: "right",
       hidden: false,
-      title: "Bogota",
+      title: "Homenaje a Jaime Garzón",
       image: "./images/jaimeG.png",
       description:
         "A continuación se presentan los principales lugares de memoria en Bogotá asociados a la figura de Jaime Garzón y los personajes a los que le dio vida 1 . Esta breve revisión puso en evidencia la gran importancia que ha tenido esta figura en el espacio público bogotano. Aunque se encontraron numerosas intervenciones efímeras, ya fuera por su carácter temporal 2 , o por la destrucción de las que fueron objeto, se concentró la mirada en aquellas que han permanecido en el tiempo consolidándose, o en proceso de consolidarse, como lugares de memoria. La presentación se divide en murales, monumentos y colegios.",
@@ -52,11 +51,11 @@ var config = {
       id: "cap02",
       alignment: "left",
       hidden: false,
-      title: "MAL Crew - Mural Jaime Garzon",
+      title: "Calle 26 entre carrera 25 y carrera 27",
       image: "./images/muralJaimeGarzon.png",
       tagline: "MAL Crew, 2022. Mural Jaime Garzón. Quinta versión",
       description:
-        "A continuación se presentan los principales lugares de memoria en Bogotá asociados a la figura de Jaime Garzón y los personajes a los que le dio vida 1 . Esta breve revisión puso en evidencia la gran importancia que ha tenido esta figura en el espacio público bogotano. Aunque se encontraron numerosas intervenciones efímeras, ya fuera por su carácter temporal 2 , o por la destrucción de las que fueron objeto, se concentró la mirada en aquellas que han permanecido en el tiempo consolidándose, o en proceso de consolidarse, como lugares de memoria. La presentación se divide en murales, monumentos y colegios.",
+        "El mural de la calle 26 es una de las intervenciones artísticas callejeras más grandes de la ciudad y la más grande de las hechas sobre Jaime Garzón. Es la quinta versión de un homenaje a su memoria que permanece en estas mismas paredes desde el año 2012. En todas las versiones los responsables han sido el colectivo de arte callejero MAL Crew 3 , un grupo de jóvenes bogotanos que con su trabajo ha hecho parte de luchas sociales de diverso tipo.",
       location: {
         center: [-74.07809809815039, 4.622786830213004], //4.622786830213004, -74.07809809815039
         zoom: 19,
@@ -65,7 +64,7 @@ var config = {
         speed: 1,
       },
       mapAnimation: "flyTo",
-      rotateAnimation: false,
+      rotateAnimation: true,
       callback: "",
       onChapterEnter: [
         // {
@@ -122,7 +121,7 @@ var config = {
         bearing: 0.0,
       },
       mapAnimation: "flyTo",
-      rotateAnimation: false,
+      rotateAnimation: true,
       callback: "",
       onChapterEnter: [],
       onChapterExit: [],
@@ -142,7 +141,7 @@ var config = {
         bearing: 0,
       },
       mapAnimation: "flyTo",
-      rotateAnimation: false,
+      rotateAnimation: true,
       callback: "",
       onChapterEnter: [],
       onChapterExit: [],
@@ -162,7 +161,7 @@ var config = {
         bearing: 0,
       },
       mapAnimation: "flyTo",
-      rotateAnimation: false,
+      rotateAnimation: true,
       callback: "",
       onChapterEnter: [],
       onChapterExit: [],
@@ -182,7 +181,7 @@ var config = {
         bearing: 0,
       },
       mapAnimation: "flyTo",
-      rotateAnimation: false,
+      rotateAnimation: true,
       callback: "",
       onChapterEnter: [],
       onChapterExit: [],
@@ -202,7 +201,7 @@ var config = {
         bearing: 0,
       },
       mapAnimation: "flyTo",
-      rotateAnimation: false,
+      rotateAnimation: true,
       callback: "",
       onChapterEnter: [],
       onChapterExit: [],
@@ -222,7 +221,7 @@ var config = {
         bearing: 0,
       },
       mapAnimation: "flyTo",
-      rotateAnimation: false,
+      rotateAnimation: true,
       callback: "",
       onChapterEnter: [],
       onChapterExit: [],
