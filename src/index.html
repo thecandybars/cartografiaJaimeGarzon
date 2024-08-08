@@ -69,6 +69,8 @@
         margin: 0;
         padding: 2vh 2vw;
         text-align: center;
+      }
+      h1 {
         font-family: Kopeek, sans-serif;
       }
       #footer {
@@ -112,6 +114,10 @@
         /* border: none; */
         /* padding: 10px; */
         /* cursor: pointer; */
+      }
+      .container {
+        position: relative;
+        z-index: 10;
       }
       .fixedLogos {
         position: fixed;
@@ -208,8 +214,8 @@
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);
-        z-index: 1000;
-        max-width: 100%;
+        opacity: 0.5;
+        width: 35%;
       }
     </style>
   </head>
@@ -310,6 +316,14 @@
         var dialogImage = document.getElementById("dialogImage");
         dialogImage.src = src;
         dialog.style.display = "flex";
+        dialog.addEventListener("click", () => closeDialog());
+        document.addEventListener("keydown", function onEscapeKey(e) {
+          if (e.key === "Escape") {
+            closeDialog();
+            // Remove the event listener after closing to prevent multiple listeners
+            document.removeEventListener("keydown", onEscapeKey);
+          }
+        });
       }
 
       function closeDialog() {
@@ -376,6 +390,7 @@
         chapter.classList.add(config.theme);
         container.appendChild(chapter);
         container.classList.add(alignments[record.alignment] || "centered");
+        container.classList.add("container");
         if (record.hidden) {
           container.classList.add("hidden");
         }

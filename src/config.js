@@ -14,7 +14,8 @@ var config = {
   use3dTerrain: false, //set true for enabling 3D maps.
   auto: false,
   title: "CARTOGRAFIA DE LA ESPERANZA",
-  subtitle: "",
+  subtitle:
+    "Homenaje a Jaime y a todxs lxs defensores de derechos humanos y constructores de Paz en Colombia",
   byline: "",
   footer: "CNMH",
   chapters: [
@@ -25,7 +26,7 @@ var config = {
       title: "Homenaje a Jaime Garzón",
       image: "./images/jaimeG.png",
       description:
-        "A continuación se presentan los principales lugares de memoria en Bogotá asociados a la figura de Jaime Garzón y los personajes a los que le dio vida. Esta breve revisión puso en evidencia la gran importancia que ha tenido esta figura en el espacio público bogotano. Aunque se encontraron numerosas intervenciones efímeras, ya fuera por su carácter temporal, o por la destrucción de las que fueron objeto, se concentró la mirada en aquellas que han permanecido en el tiempo consolidándose, o en proceso de consolidarse, como lugares de memoria. La presentación se divide en murales, monumentos y colegios.",
+        "En alianza entre el Centro de Memoria Paz y Reconciliación y el Centro Nacional de Memoria Histórica, se propone la siguiente cartografía llamada 'Cartografía de la Esperanza', en ella se busca resaltar la memoria de Jaime Garzón, pero también de visibilizar todos aquellos espacios de memoria que de una u otra forma nos identifican con las luchas por los derechos humanos y la construcción de paz en Colombia. Esta breve revisión puso en evidencia la gran importancia que ha tenido esta figura en el espacio público bogotano. Aunque se encontraron numerosas intervenciones efímeras, ya fuera por su carácter temporal, o por la destrucción de las que fueron objeto, se concentró la mirada en aquellas que han permanecido en el tiempo consolidándose, o en proceso de consolidarse, como lugares de memoria. La presentación se divide en murales, monumentos y colegios.",
       location: {
         center: [-74.03084, 4.70324], //4.622786830213004, -74.07809809815039
         zoom: 10,
@@ -114,7 +115,7 @@ var config = {
       alignment: "right",
       hidden: false,
       title: "Calle 26 entre carrera 25 y carrera 27",
-      image: "./images/muralJaimeGarzon.png",
+      image: "./images/malCrew.gif",
       tagline: "MAL Crew, 2022. Mural Jaime Garzón. Quinta versión",
       description:
         "El mural de la calle 26 es una de las intervenciones artísticas callejeras más grandes de la ciudad y la más grande de las hechas sobre Jaime Garzón. Es la quinta versión de un homenaje a su memoria que permanece en estas mismas paredes desde el año 2012. En todas las versiones los responsables han sido el colectivo de arte callejero MAL Crew 3 , un grupo de jóvenes bogotanos que con su trabajo ha hecho parte de luchas sociales de diverso tipo.",
