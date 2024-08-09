@@ -1,12 +1,13 @@
 var config = {
   // style: "mapbox://styles/juancortes79/clxpabyhm035q01qofghr7yo7",
   // style: "mapbox://styles/juancortes79/clzivyft6005201pchqxifycu",
+  // style: "mapbox://styles/juancortes79/clxbt6q9w09jt01ql089jau20",
   style: "mapbox://styles/mapbox/outdoors-v12",
   accessToken:
     "pk.eyJ1IjoianVhbmNvcnRlczc5IiwiYSI6ImNsd3J5ZGRpdDAxZzkyaXB6dmVleHRiNTgifQ.mXBxteDncu7JFKRuW8fPJg",
   showMarkers: true,
   markerColor: "#3FB1CE",
-  //projection: 'equirectangular',
+  // projection: "equirectangular",
   //Read more about available projections here
   //https://docs.mapbox.com/mapbox-gl-js/example/projections/
   inset: false,
@@ -116,7 +117,7 @@ var config = {
       hidden: false,
       title: "Calle 26 entre carrera 25 y carrera 27",
       image: "./images/malCrew.gif",
-      tagline: "MAL Crew, 2022. Mural Jaime Garzón. Quinta versión",
+      tagline: "Fotografía // Proceso de Intervención Gráfica // MAL CREW",
       description:
         "El mural de la calle 26 es una de las intervenciones artísticas callejeras más grandes de la ciudad y la más grande de las hechas sobre Jaime Garzón. Es la quinta versión de un homenaje a su memoria que permanece en estas mismas paredes desde el año 2012. En todas las versiones los responsables han sido el colectivo de arte callejero MAL Crew 3 , un grupo de jóvenes bogotanos que con su trabajo ha hecho parte de luchas sociales de diverso tipo.",
       location: {
@@ -169,6 +170,8 @@ var config = {
       hidden: false,
       title: "Mural Carrera 40",
       image: "./images/muralCarrera40.gif",
+      tagline:
+        "Fotografía // Proceso de Intervención Gráfica Independiente // Dexpierte Colectivo, Somos, Guache, Dj Lu (Juega Siempre), Teck 24",
       description:
         "El mural ubicado en la carrera 40 con calle 24A se encuentra aproximadamente a 200 metros del lugar donde fue asesinado Jaime Garzón y a unos 100 metros del monumento de conmemoración y memoria de Jaime Garzón. Este mural, debido a su ubicación geográfica, también forma parte del eje de la paz y la memoria. En el duodécimo aniversario del asesinato de Jaime Garzón, este espacio fue apropiado como lugar de memoria en el año 2011 por DEXPIERTE COLECTIVO, en colaboración con artistas urbanos como SOMOS, DJ LU y Guache. La primera intervención en el mural reflejaba el rostro de Jaime Garzón con una frase elocuente: “12 años sin Jaime”, complementada por la palabra “MEMORIA”.",
       location: {
@@ -194,7 +197,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Facultad de Diseño Grafico UNAL",
-      image: "./images/muralUnal01.png",
+      image: "./images/unalDiseno.png",
       description:
         "El edificio de Diseño Gráfico de la Universidad Nacional guarda otro lugar de la memoria de Jaime Garzón que ha permanecido por más de una década. Aunque para el momento de presentar este documento no se ha podido establecer una fecha exacta de su creación, se encontró información de una usuaria de Flickr, coautora del mural, que tomó este registro el 26 de septiembre de 2011, de tal forma que por lo menos desde este año el mural se encuentra allí. Además, en su publicación lo presenta como “aud. Jaime Garzón”, lo que indica una intención del mural de generar una marca de memoria en el auditorio del edificio. En la publicación señala sobre los autores: “En una jornada hermosa se creó esta pieza homenaje a Jaime Garzón con la ayuda de muchos personajes importantes en mi vida. Todos parimos este mural y todavía lo gozamos gracias a valeria, yisel, sergio, karen, daniel, y los que se me escapan; que lindo momento”.",
       location: {
