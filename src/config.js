@@ -193,8 +193,29 @@ var config = {
       onChapterExit: [],
     },
     {
-      id: "cap04",
+      id: "cap049",
       alignment: "left",
+      hidden: false,
+      title: "Parque Jaime Garzón",
+      image: "./images/Parque_Jaime 4.jpeg",
+      tagline: "Fotografía COLECTIVO EPSILON",
+      description:
+        "Tras la toma Cultural 'Los imaginarios otros de ser joven' ocurrida el primero de Junio del 2014 diversos procesos Juveniles del territorio de la Chiguazá, en la localidad Rafael Uribe Uribe, tras un ejercicio participativo y deliberativo resignifican el antiguo parque Molinos II como un escenario de encuentro de las Juventudes populares, un espacio público liberado de la violencia urbana y policial desde las prácticas culturales, ambientales y deportivas que la juventud de este territorio de manera organizada y esporádica venía transformando en este parque. Jaime Garzón representa entonces una apuesta clara por reconocer el papel transformador, crítico y creativo de las Juventudes, una lucha además por la vida, la memoria y la verdad desde el sur oriente de la ciudad. Actualmente es ya un escenario con identidad propia para la comunidad y las luchas juveniles de la ciudad. La existencia de este importante lugar para el territorio dió pie a la realización del festival Jaime Garzón liderado por el movimiento Hip hop del barrio, que tuvo una gran y emotiva versión en el marco del estallido social en la estación Molinos TM.",
+      location: {
+        center: [-74.10773831698003, 4.552838469575169], // 4.552838469575169, -74.10773831698003
+        zoom: 17,
+        pitch: 40,
+        bearing: 10.0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: true,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: [],
+    },
+    {
+      id: "cap04",
+      alignment: "right",
       hidden: false,
       title: "Facultad de Diseño Grafico UNAL",
       image: "./images/unalDiseno.png",
@@ -214,7 +235,7 @@ var config = {
     },
     {
       id: "cap05",
-      alignment: "right",
+      alignment: "left",
       hidden: false,
       title: "Plaza Che",
       image: "./images/MuroJaimeUniversidadNacional.jpg",
