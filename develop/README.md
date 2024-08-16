@@ -1,0 +1,3 @@
+# Mapeo de los lugares de memoria sobre Jaime Garzón
+
+A continuación se presentan los principales lugares de memoria en Bogotá asociados a la figura de Jaime Garzón y los personajes a los que le dio vida 1 . Esta breve revisión puso en evidencia la gran importancia que ha tenido esta figura en el espacio público bogotano. Aunque se encontraron numerosas intervenciones efímeras, ya fuera por su carácter temporal 2 , o por la destrucción de las que fueron objeto, se concentró la mirada en aquellas que han permanecido en el tiempo consolidándose, o en proceso de consolidarse, como lugares de memoria. La presentación se divide en murales, monumentos y colegios.
